@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* utils */
+.container {
+  background-color: #ffffff;
+  padding-bottom: 200px;
+  width: 70%;
+  margin: auto;
+  border-color: rgb(224, 224, 224);
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px #a7a7a7;
+}
+.px-10 {
+  padding-inline: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+.btn {
+  background-color: #2c88d9;
+  color: white;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #4596dd;
+}
+.border-t {
+  border-top: 8px solid #00007c;
+}
+.w-full {
+  width: 100%;
+}
+.block {
+  display: block;
+}
+.underline {
+  text-decoration: underline;
+}
+
+/* main style */
+.image_Card {
+  width: 100%;
+  padding: 0 150px;
+  border-style: none;
+}
+.container p {
+  padding: 0 50px;
+  font-size: 25px;
+  line-height: 35px;
+}
+.container h2 {
+  margin: 0;
+  text-align: center;
+  padding: 25px;
+  font-size: 35px;
+}
+.container h3 {
+  padding: 0 50px;
+  font-size: 33px;
+  color: #242527;
+}
+.footer p {
+  padding: 15px 250px;
+  text-align: start;
+  margin: 0;
+  line-height: 23px;
+  font-size: 14px;
+}
+.footer h3 {
+  padding: 15px 250px 0;
+  text-align: start;
+  font-size: 15px;
+  color: rgb(36, 37, 39);
+}
+
+.footer {
+  background-color: #e4e4e4;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  margin-top: 3px;
+}
+.footer h3 {
+  padding: 15px 250px 0;
+  text-align: start;
+  font-size: 15px;
+  color: rgb(36, 37, 39);
+}
+.footer .h5 {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgb(36, 37, 39);
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  margin-left: 15px;
+}
+.container .question {
+  padding: 50px;
+}
+
+.questions {
+  padding: 20px 60px;
+}
+/* simple responsive */
+@media (max-width: 767px) {
+  .container h2 {
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .image_Card {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .container p {
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .container h3 {
+    padding: 0 10px;
+    font-size: 25px;
+  }
+  .container .question {
+    padding: 10px;
+  }
+  .container .question {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  .footer p {
+    padding: 10px 0;
+  }
+  .footer h3 {
+    padding: 10px 0;
+  }
+}
