@@ -166,4 +166,7 @@ body {
   .footer h3 {
     padding: 10px 0;
   }
+  .questions {
+    padding: 10px;
+  }
 }
